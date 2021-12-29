@@ -10,7 +10,9 @@
 
 <br>
 
-### 🏠 [Homepage](https://github.com/anbreaker/react-proyecto-mu)
+### 🏠 [Homepage del Proyecto en GitHub](https://github.com/anbreaker/react-proyecto-mu)
+
+### 🔗 [Enlace a la web](https://anbreaker.github.io/the-super-league-concept/)
 
 <br>
 
@@ -32,7 +34,7 @@
 
 # Envio de un email a traves de la web the-super-league-concept (Click en la imagen para verlo)📼
 
-[![](adf)](https://www.youtube.com/watch?v=nwRJLUN9BLY)
+[![](https://github.com/anbreaker/the-super-league-concept/blob/main/img/formTheSuperLeague.png?raw=true)](https://www.youtube.com/watch?v=nwRJLUN9BLY)
 
 <br><br>
 
