@@ -1,0 +1,11 @@
+# Dependency directories
+.vscode
+node_modules/
+package-lock.json
+
+.env
+credentials.csv
+sendgrid.env
+
+# Optional npm cache directory
+.npmsendgrid.env

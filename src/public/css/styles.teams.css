@@ -1,0 +1,16 @@
+.navbar {
+  background-color: var(--lightGrey);
+}
+@media (min-width: 768px) {
+  .navbar {
+    background-color: var(--black);
+  }
+
+  .navbar ul {
+    color: var(--white);
+  }
+
+  .teams {
+    margin-bottom: 5rem;
+  }
+}
