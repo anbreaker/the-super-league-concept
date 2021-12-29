@@ -34,11 +34,11 @@
 
 # Envio de un email a traves de la web the-super-league-concept (Click en la imagen para verlo)📼
 
+<br>
+
 [![](https://github.com/anbreaker/the-super-league-concept/blob/main/img/formTheSuperLeague.png?raw=true)](https://www.youtube.com/watch?v=nwRJLUN9BLY)
 
 <br><br>
-
-<br>
 
 ## Instalar dependencias del backend (Node & Express) Si se quiere probar en local 🔧
 
