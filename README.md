@@ -10,7 +10,7 @@
 
 <br>
 
-### 🏠 [Homepage del Proyecto en GitHub](https://github.com/anbreaker/react-proyecto-mu)
+### 🏠 [Homepage del Proyecto en GitHub](https://github.com/anbreaker/the-super-league-concept)
 
 ### 🔗 [Enlace a la web](https://anbreaker.github.io/the-super-league-concept/)
 
