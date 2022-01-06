@@ -78,7 +78,7 @@ img {
   text-align: center;
 }
 
-/* Navbar Hamburguer Menu */
+/* navbarNB Hamburguer Menu */
 nav .hamburguer-button {
   display: flex;
   flex-direction: row-reverse;
@@ -126,7 +126,7 @@ nav .hamburguer-button {
   background-color: var(--grey);
 }
 
-.navbar ul {
+.navbarNB ul {
   color: var(--white);
   display: flex;
   flex-direction: column;
@@ -140,7 +140,7 @@ nav .hamburguer-button {
 }
 
 @media (min-width: 768px) {
-  .navbar ul {
+  .navbarNB ul {
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem;
@@ -153,26 +153,26 @@ nav .hamburguer-button {
   }
 }
 
-.navbar li {
+.navbarNB li {
   padding: 0.8rem;
   cursor: pointer;
   transition-property: transform bacground-color;
   transition-duration: 0.3s;
 }
 
-.navbar li:hover {
+.navbarNB li:hover {
   background-color: var(--secundary);
   padding: 1.2rem;
   transform: scale(1.02);
 }
 
 @media (min-width: 768px) {
-  .navbar li {
+  .navbarNB li {
     padding: 0;
     transition-duration: 0.35s;
   }
 
-  .navbar li:hover {
+  .navbarNB li:hover {
     background-color: var(--secundary);
     display: block;
     padding: 0 4rem;
@@ -180,7 +180,7 @@ nav .hamburguer-button {
   }
 }
 
-.navbar button {
+.navbarNB button {
   align-items: center;
   display: flex;
   justify-content: center;

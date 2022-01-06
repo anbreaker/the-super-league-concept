@@ -35,7 +35,7 @@
     <title>Unex Super League!</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbarNB">
       <div class="hamburguer-button">
         <button
           class="menu"
@@ -67,20 +67,39 @@
           <a href="https://anbreaker.github.io/the-super-league-concept/teams.html">
             <li>Teams</li>
           </a>
-          <a href="social-media.html"><li>Social Media</li></a>
+          <a href="crud-teams.html"><li>ToDo Match</li></a>
           <a href="https://the-super-league-concept.herokuapp.com/"><li>Contact</li></a>
         </ul>
       </div>
     </nav>
 
-    <section class="container form">
-      <div class="container mt-5">
-        <h1>To Do List</h1>
+    <section class="container form-grid">
+      <div class="container mt-5 col-4">
+        <h1>To Do List:</h1>
         <h3>List of tasks with persistence in LocalStorage</h3>
+        <p class="mt-3">
+          This is a small example of what can be done with vanilla javascript. This part
+          of the web is built with some Bootstrap (the alerts and buttons).
+        </p>
+        <p>
+          This is a small To Do List with the idea of keeping notes, results and
+          everything related to your teams with persistence in LocalStorage
+        </p>
+        <p>You can save, mark as done (or unmark) and delete directly.</p>
+        <p>As long as you do not clear your browser cache you will have your data!</p>
+        <p></p>
+      </div>
+
+      <div class="container mt-5 col-8">
+        <h3 class="text-center">Remember your Favourite Matchs!</h3>
 
         <form action="" id="crud">
-          <input type="text" id="match" class="form-control" />
-          <button type="submit" class="btn btn-primary mt-4">Save Soccer Match</button>
+          <div class="center">
+            <input type="text" id="match" class="form-control mt-2" />
+            <button type="submit" class="btn btn-primary btn-lg w-50 mt-4">
+              Save ToDo
+            </button>
+          </div>
         </form>
 
         <div id="listMatchs" class="mt-4">
