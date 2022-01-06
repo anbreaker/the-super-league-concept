@@ -32,11 +32,27 @@
 - La web esta construdia con el concepto de Mobile-First, todo tiende al final al usuario final y todos acabamos utilizando el el movil.
 - Como valor añadido, he construido un pequeño formulario funcional, todos los correos llegaran a mi bandeja y para muestra un botón que dirian los abuelos:
 
-# Envio de un email a traves de la web the-super-league-concept (Click en la imagen para verlo)📼
+# Envio de un email a traves de la web the-super-league-concept (Click en la imagen para verlo) 📼
 
 <br>
 
 [![](https://github.com/anbreaker/the-super-league-concept/blob/main/img/formTheSuperLeague.png?raw=true)](https://www.youtube.com/watch?v=nwRJLUN9BLY)
+
+<br><br>
+
+# Lista de tareas con persistencia en LocalStorage (Click en la imagen para verlo) 🗒️
+
+- Este es un pequeño ejemplo de lo que se puede hacer con vanilla javascript. Esta parte de la web está construida con algo de Bootstrap (las alertas y los botones).
+
+- Se trata de una pequeña To Do List con la idea de guardar notas, resultados y todo lo relacionado con tus equipos con persistencia en LocalStorage
+
+- Puedes guardar, marcar como hecho (o desmarcar) y borrar directamente.
+
+- ¡Mientras no borres la caché de tu navegador tendrás tus datos!
+
+<br>
+
+[![](https://github.com/anbreaker/the-super-league-concept/blob/main/img/toDoList.png?raw=true)](https://youtu.be/aJJC4oVgUOY)
 
 <br><br>
 
