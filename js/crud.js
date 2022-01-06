@@ -1,11 +1,14 @@
 'stric mode';
-
+// Dinamic Web with maniputation of DOM
 // Global Variables
 const crudUI = document.querySelector('#crud');
 const listMatchsUI = document.querySelector('#listMatchs');
 
 // Matches to be generated and saved
 let matchs = [];
+
+// For change class CSS on bootstrap
+const classCss = ['alert-success', 'alert-danger'];
 
 // functions
 const createItem = (match) => {
@@ -34,28 +37,40 @@ const showLocalStorage = () => {
   if (matchs === null) matchs = [];
   else {
     matchs.forEach((item) => {
-      listMatchsUI.innerHTML += `
-        <div id="listMatchs" class="mt-4">
-          <div class="alert alert-danger message" role="alert">
-            <span class="material-icons">sports_soccer</span>
-            <span>${item.match}</span>
-
-            - ${item.status}
-            <span class="material-icons">done</span>
-            <span class="material-icons">delete</span>
-          </div>
-        </div>
-      `;
+      if (item.status) drawDOM(item, classCss[0]);
+      else drawDOM(item, classCss[1]);
     });
   }
 };
 
-// TODO to be continued
+const drawDOM = (item, classCss) => {
+  listMatchsUI.innerHTML += `
+    <div id="listMatchs" class="mt-4">
+      <div class="alert ${classCss} message" role="alert">
+        <span class="material-icons">sports_soccer</span>
+        <span>${item.match}</span>
+        ${item.status}
+        <span class="material-icons">done</span> 
+        <span class="material-icons">delete</span>
+      </div>
+    </div>
+  `;
+};
+
+const editToDoMatch = (todo) => {
+  let idxArray = matchs.findIndex((item) => item.match === todo);
+
+  matchs[idxArray].status = !matchs[idxArray].status;
+
+  saveOnLocalStorage();
+};
+
 const deleteToDoMatch = (todo) => {
-  let i;
   matchs.forEach((item, index) => {
-    console.log(item, index);
+    if (item.match === todo) matchs.splice(index, 1);
   });
+
+  saveOnLocalStorage();
 };
 
 // EventListener
@@ -84,15 +99,13 @@ listMatchsUI.addEventListener('click', (event) => {
     console.log(todo);
 
     if (event.target.innerHTML.trim() === 'done') {
-      // Action Done
       console.log('Done');
+      editToDoMatch(todo);
     }
+
     if (event.target.innerHTML.trim() === 'delete') {
-      // Action Delete
       deleteToDoMatch(todo);
       console.log('Delete');
     }
   }
 });
-
-// Dinamic Web with maniputation of DOM
