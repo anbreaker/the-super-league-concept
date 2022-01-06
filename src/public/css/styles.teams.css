@@ -1,12 +1,12 @@
-.navbar {
+.navbarNB {
   background-color: var(--lightGrey);
 }
 @media (min-width: 768px) {
-  .navbar {
+  .navbarNB {
     background-color: var(--black);
   }
 
-  .navbar ul {
+  .navbarNB ul {
     color: var(--white);
   }
 
