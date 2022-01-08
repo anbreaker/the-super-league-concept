@@ -1,0 +1,11 @@
+h3 {
+  cursor: pointer
+}
+
+.list-teams {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-weather {
+  filter: invert(100%);
+}
