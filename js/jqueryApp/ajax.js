@@ -24,8 +24,12 @@
 
   function showData(data) {
     // Imagen
-    const url = `img/weather/${data.weather[0].icon}.png`;
-    $('.img-weather').attr('src', url);
+    const urlWeather = `img/weather/${data.weather[0].icon}.png`;
+    $('.img-weather').attr('src', urlWeather);
+
+    // TODO url team importar json leer y pintar
+    // const urlTeam = `img/teams/${team}`;
+    // $('.img-team').attr('src', urlTeam);
 
     let temperature = Math.round(data.main.temp);
     $('.temperature').html(temperature + '&#176;');
