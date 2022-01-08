@@ -2,6 +2,12 @@ h3 {
   cursor: pointer
 }
 
+.div-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .list-teams {
   grid-template-columns: repeat(2, 1fr);
 }
