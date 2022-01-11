@@ -12,7 +12,7 @@
   function getWeather(infoTeam) {
     $.ajax({
       type: 'GET',
-      url: `http://api.openweathermap.org/data/2.5/weather?lat=${infoTeam.latitude}&lon=${infoTeam.longitude}&units=metric&appid=6d9f7b68a8432684ebd89e73f0435f64`,
+      url: `https://api.openweathermap.org/data/2.5/weather?lat=${infoTeam.latitude}&lon=${infoTeam.longitude}&units=metric&appid=6d9f7b68a8432684ebd89e73f0435f64`,
       dataType: 'jsonp',
     })
       .done(function (data) {
