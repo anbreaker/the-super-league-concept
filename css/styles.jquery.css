@@ -9,10 +9,26 @@ h3 {
 }
 
 .list-teams {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 .img-weather,
 .img-team {
   filter: invert(100%);
+}
+
+.shield-weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.temperature,
+.stadium {
+  font-size: 36px;
+  color: var(--secundary)
+}
+
+.container {
+  max-width: 138rem;
 }

@@ -15,7 +15,7 @@
   },
   {
     "name": "Atlético de Madrid",
-    "stadium": "",
+    "stadium": "Wanda Metropolitano",
     "latitude": 40.436390,
     "longitude": -3.599478,
     "shield": "atletico_hero_logo.png"
@@ -35,7 +35,7 @@
     "shield": "chelsea_hero_logo.png"
   },
   {
-    "name": "Inter de Milan",
+    "name": "Inter Milan",
     "stadium": "San Siro",
     "latitude": 45.477951,
     "longitude": 9.123930,
