@@ -59,7 +59,7 @@
     $.ajax({
       type: 'GET',
       dataType: 'json',
-      url: '../../database/dbStadiumsGPS.json',
+      url: 'https://raw.githubusercontent.com/anbreaker/the-super-league-concept/main/database/dbStadiumsGPS.json',
     })
       .done(function (data) {
         if (data) {
