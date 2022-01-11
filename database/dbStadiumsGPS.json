@@ -1,0 +1,86 @@
+[
+  {
+    "name": "AC Milan",
+    "stadium": "San Siro",
+    "latitude": 45.477951,
+    "longitude": 9.123930,
+    "shield": "acmilan_hero_logo.png"
+  },
+  {
+    "name": "Arsenal",
+    "stadium": "Emirates Stadium",
+    "latitude": 51.554748,
+    "longitude": -0.108223,
+    "shield": "arsenal_hero_logo.png"
+  },
+  {
+    "name": "Atlético de Madrid",
+    "stadium": "Wanda Metropolitano",
+    "latitude": 40.436390,
+    "longitude": -3.599478,
+    "shield": "atletico_hero_logo.png"
+  },
+  {
+    "name": "FC Barcelona",
+    "stadium": "Camp Nou",
+    "latitude": 41.3808000,
+    "longitude": 2.1231100,
+    "shield": "barcelona_hero_logo.png"
+  },
+  {
+    "name": "Chelsea FC",
+    "stadium": "Stamford Bridge",
+    "latitude": 51.481710,
+    "longitude": -0.191139,
+    "shield": "chelsea_hero_logo.png"
+  },
+  {
+    "name": "Inter Milan",
+    "stadium": "San Siro",
+    "latitude": 45.477951,
+    "longitude": 9.123930,
+    "shield": "intermilan_hero_logo.png"
+  },
+  {
+    "name": "Juventus",
+    "stadium": "Juventus Allianz Stadium",
+    "latitude": 45.109594,
+    "longitude": 7.641247,
+    "shield": "juventus_hero_logo.png"
+  },
+  {
+    "name": "Liverpool",
+    "stadium": "Anfield",
+    "latitude": 53.430810,
+    "longitude": -2.960959,
+    "shield": "liverpool_hero_logo.png"
+  },
+  {
+    "name": "Manchester City",
+    "stadium": "Etihad Stadium",
+    "latitude": 53.483135,
+    "longitude": -2.200941,
+    "shield": "manchester_city_hero_logo.png"
+  },
+  {
+    "name": "Manchester United",
+    "stadium": "Old Trafford",
+    "latitude": 53.463056,
+    "longitude": -2.291389,
+    "shield": "manchesterunited_hero_logo.png"
+  },
+  {
+    "name": "Tottenham",
+    "stadium": "Tottenham Hotspur Stadium",
+    "latitude": 51.604152,
+    "longitude": -0.066086,
+    "shield": "tottenham_hero_logo.png"
+  },
+  {
+    "name": "Real Madrid",
+    "stadium": "Estadio Santiago Bernabéu",
+    "latitude": 40.452941,
+    "longitude": -3.688162,
+    "shield": "realmadrid_hero_logo.png"
+  }
+]

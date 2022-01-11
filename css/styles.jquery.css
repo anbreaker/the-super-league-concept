@@ -1,0 +1,34 @@
+h3 {
+  cursor: pointer
+}
+
+.div-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-teams {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.img-weather,
+.img-team {
+  filter: invert(100%);
+}
+
+.shield-weather {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.temperature,
+.stadium {
+  font-size: 36px;
+  color: var(--secundary)
+}
+
+.container {
+  max-width: 138rem;
+}
