@@ -43,7 +43,7 @@
   },
   {
     "name": "Juventus",
-    "stadium": "Juventus Allianz Stadium",
+    "stadium": "Juventus Allianz",
     "latitude": 45.109594,
     "longitude": 7.641247,
     "shield": "juventus_hero_logo.png"
@@ -57,7 +57,7 @@
   },
   {
     "name": "Manchester City",
-    "stadium": "Etihad Stadium",
+    "stadium": "Etihad",
     "latitude": 53.483135,
     "longitude": -2.200941,
     "shield": "manchester_city_hero_logo.png"
@@ -71,14 +71,14 @@
   },
   {
     "name": "Tottenham",
-    "stadium": "Tottenham Hotspur Stadium",
+    "stadium": "Tottenham Hotspur",
     "latitude": 51.604152,
     "longitude": -0.066086,
     "shield": "tottenham_hero_logo.png"
   },
   {
     "name": "Real Madrid",
-    "stadium": "Estadio Santiago Bernabéu",
+    "stadium": "Santiago Bernabéu",
     "latitude": 40.452941,
     "longitude": -3.688162,
     "shield": "realmadrid_hero_logo.png"

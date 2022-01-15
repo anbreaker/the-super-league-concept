@@ -20,6 +20,7 @@
 
         showData(data, infoTeam.shield, infoTeam.stadium);
         showStadiumTemperature();
+        showLocationAndGoStadium(infoTeam);
       })
       .fail(function () {
         console.log('Error!');
@@ -53,6 +54,20 @@
 
       getJsonTeams(team);
     });
+  }
+
+  function showLocationAndGoStadium(infoTeam) {
+    // only openstreetmap
+    // const url = `https://www.openstreetmap.org/export/embed.html?bbox=${infoTeam.longitude}%2C${infoTeam.latitude}%2C${infoTeam.longitude}%2C${infoTeam.latitude}&amp;layer=mapnik&amp;marker=${infoTeam.latitude}%2C${infoTeam.longitude}`;
+    // With partners XD
+
+    const url = `https://www.stay22.com/embed/gm?aid=affiliateid&lat=${infoTeam.latitude}&lng=${infoTeam.longitude}`;
+    $('.location-stadium').attr('src', url);
+
+    const href = `https://www.openstreetmap.org/?mlat=${infoTeam.latitude}&amp;mlon=${infoTeam.longitude}#map=14/${infoTeam.latitude}/${infoTeam.longitude}`;
+    $('.show-openstreetmap').attr('href', href);
+
+    $('.stadium-name').html(infoTeam.stadium);
   }
 
   function getJsonTeams(team) {

@@ -38,6 +38,10 @@ body {
   margin-right: auto;
 }
 
+.text-important {
+  color: var(--secundary)
+}
+
 a {
   text-decoration: none;
   color: inherit;
