@@ -20,6 +20,7 @@
 
         showData(data, infoTeam.shield, infoTeam.stadium);
         showStadiumTemperature();
+        showLocationAndGoStadium(infoTeam);
       })
       .fail(function () {
         console.log('Error!');
@@ -53,6 +54,18 @@
 
       getJsonTeams(team);
     });
+  }
+
+  function showLocationAndGoStadium(infoTeam) {
+    console.log(infoTeam.latitude, infoTeam.longitude);
+    // TODO change url to iframe openstreepmap
+    const url = `https://www.openstreetmap.org/export/embed.html?bbox=9.067325592041017%2C45.45031684016927%2C9.18062210083008%2C45.50556490999449&amp;layer=mapnik&amp;marker=${infoTeam.latitude}%2C${infoTeam.longitude}`;
+
+    const href = `https://www.openstreetmap.org/?mlat=${infoTeam.latitude}&amp;mlon=${infoTeam.longitude}#map=14/${infoTeam.latitude}/${infoTeam.longitude}`;
+    console.log(url);
+
+    $('.location-stadium').attr('src', url);
+    $('.show-openstreetmap').attr('href', href);
   }
 
   function getJsonTeams(team) {
