@@ -16,6 +16,11 @@ h3 {
 .img-weather,
 .img-team {
   filter: invert(100%);
+  width: 50%;
+}
+
+.img-team {
+  margin: auto;
 }
 
 .shield-weather {
@@ -31,4 +36,11 @@ h3 {
 
 .container {
   max-width: 138rem;
+}
+
+.stadium-name {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--primary);
+  border-bottom: 4px solid var(--secundary);
 }
