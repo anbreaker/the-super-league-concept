@@ -56,6 +56,12 @@
 
 <br><br>
 
+# Selecciona el equipo que quieres ver, consulta el tiempo actual y reserva tu hotel cerca del estadio. (Click en la imagen para verlo) 📟
+
+[![](https://github.com/anbreaker/the-super-league-concept/blob/main/img/jqueryWeatherLocation.png?raw=true)](https://youtu.be/l92BR855dGw)
+
+<br><br>
+
 ## Instalar dependencias del backend (Node & Express) Si se quiere probar en local 🔧
 
 ```sh
